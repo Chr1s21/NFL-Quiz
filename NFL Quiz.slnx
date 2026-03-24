@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Projektmappenelemente/">
+    <File Path="PlayerLoad.cs" />
+  </Folder>
+  <Project Path="NFL Quiz.csproj" />
+</Solution>

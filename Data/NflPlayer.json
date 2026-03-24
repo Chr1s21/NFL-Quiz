@@ -1,0 +1,3050 @@
+[
+  {
+    "Name": "Josh Allen",
+    "Trikotnr": "17",
+    "Position": "QB",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "James Cook",
+    "Trikotnr": "4",
+    "Position": "RB",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Ray Davis",
+    "Trikotnr": "22",
+    "Position": "RB",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Dalton Kincaid",
+    "Trikotnr": "86",
+    "Position": "TE",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Dawson Knox",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Curtis Samuel",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Khalil Shakir",
+    "Trikotnr": "10",
+    "Position": "WR",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Tua Tagovailoa",
+    "Trikotnr": "1",
+    "Position": "QB",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Devon Achane",
+    "Trikotnr": "28",
+    "Position": "RB",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Darren Waller",
+    "Trikotnr": "83",
+    "Position": "TE",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Tyreek Hill",
+    "Trikotnr": "10",
+    "Position": "WR",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jaylen Waddle",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Drake Maye",
+    "Trikotnr": "10",
+    "Position": "QB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Antonio Gibson",
+    "Trikotnr": "4",
+    "Position": "RB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "TreVeyon Henderson",
+    "Trikotnr": "32",
+    "Position": "RB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Rhamondre Stevenson",
+    "Trikotnr": "38",
+    "Position": "RB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Hunter Henry",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Kayshon Boutte",
+    "Trikotnr": "9",
+    "Position": "WR",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Stefon Diggs",
+    "Trikotnr": "8",
+    "Position": "WR",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Mack Hollins",
+    "Trikotnr": "13",
+    "Position": "WR",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Justin Fields",
+    "Trikotnr": "7",
+    "Position": "QB",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Isaiah Davis",
+    "Trikotnr": "32",
+    "Position": "RB",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Breece Hall",
+    "Trikotnr": "20",
+    "Position": "RB",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Adonai Mitchell",
+    "Trikotnr": "15",
+    "Position": "WR",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Garett Wilson",
+    "Trikotnr": "5",
+    "Position": "WR",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Lamar Jackson",
+    "Trikotnr": "8",
+    "Position": "QB",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Derrick Henry",
+    "Trikotnr": "22",
+    "Position": "RB",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Justice Hill",
+    "Trikotnr": "43",
+    "Position": "RB",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Mark Andrews",
+    "Trikotnr": "89",
+    "Position": "TE",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Isaiah Likely",
+    "Trikotnr": "80",
+    "Position": "TE",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Rashod Bateman",
+    "Trikotnr": "7",
+    "Position": "WR",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Zay Flowers",
+    "Trikotnr": "4",
+    "Position": "WR",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "DeAndre Hopkins",
+    "Trikotnr": "10",
+    "Position": "WR",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Joe Burrow",
+    "Trikotnr": "9",
+    "Position": "QB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Joe Flacco",
+    "Trikotnr": "16",
+    "Position": "QB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Chase Brown",
+    "Trikotnr": "30",
+    "Position": "RB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Noah Fant",
+    "Trikotnr": "86",
+    "Position": "TE",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Mike Gesicki",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "JaMarr Chase",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Tee Higgins",
+    "Trikotnr": "5",
+    "Position": "WR",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Andrei Iosivas",
+    "Trikotnr": "80",
+    "Position": "WR",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Shedeur Sanders",
+    "Trikotnr": "12",
+    "Position": "QB",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Deshaun Watson",
+    "Trikotnr": "4",
+    "Position": "QB",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jerome Ford",
+    "Trikotnr": "34",
+    "Position": "RB",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Quinshon Judkins",
+    "Trikotnr": "10",
+    "Position": "RB",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Harold Fannin Jr",
+    "Trikotnr": "44",
+    "Position": "TE",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "David Njoku",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jerry Jeudy",
+    "Trikotnr": "3",
+    "Position": "WR",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Aaron Rodgers",
+    "Trikotnr": "8",
+    "Position": "QB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Mason Rudolph",
+    "Trikotnr": "2",
+    "Position": "QB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Kenneth Gainwell",
+    "Trikotnr": "14",
+    "Position": "RB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jaylen Warren",
+    "Trikotnr": "30",
+    "Position": "RB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Pat Freiermuth",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jonu Smith",
+    "Trikotnr": "81",
+    "Position": "TE",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "DK Metcalf",
+    "Trikotnr": "4",
+    "Position": "WR",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "CJ Stroud",
+    "Trikotnr": "7",
+    "Position": "QB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Nick Chubb",
+    "Trikotnr": "21",
+    "Position": "RB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jakob Johnson",
+    "Trikotnr": "43",
+    "Position": "RB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Joe Mixon",
+    "Trikotnr": "28",
+    "Position": "RB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Dalton Schultz",
+    "Trikotnr": "86",
+    "Position": "TE",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Nico Collins",
+    "Trikotnr": "12",
+    "Position": "WR",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Christian Kirk",
+    "Trikotnr": "13",
+    "Position": "WR",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Daniel Jones",
+    "Trikotnr": "17",
+    "Position": "QB",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Anthony Richardson",
+    "Trikotnr": "5",
+    "Position": "QB",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Philip Rivers",
+    "Trikotnr": "17",
+    "Position": "QB",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jonathan Taylor",
+    "Trikotnr": "28",
+    "Position": "RB",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Tyler Warren",
+    "Trikotnr": "84",
+    "Position": "TE",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Josh Downs",
+    "Trikotnr": "2",
+    "Position": "WR",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Alec Pierce",
+    "Trikotnr": "14",
+    "Position": "WR",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Michael Pittman",
+    "Trikotnr": "11",
+    "Position": "WR",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Trevor Lawrence",
+    "Trikotnr": "16",
+    "Position": "QB",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Travis Etienne",
+    "Trikotnr": "1",
+    "Position": "RB",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Brenton Strange",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Travis Hunter",
+    "Trikotnr": "12",
+    "Position": "WR",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jakobi Meyers",
+    "Trikotnr": "3",
+    "Position": "WR",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Brian Thomas JR",
+    "Trikotnr": "7",
+    "Position": "WR",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Will Levis",
+    "Trikotnr": "8",
+    "Position": "QB",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Cam Ward",
+    "Trikotnr": "1",
+    "Position": "QB",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Tony Pollard",
+    "Trikotnr": "20",
+    "Position": "RB",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Elic Ayomanor",
+    "Trikotnr": "5",
+    "Position": "WR",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Chimere Dike",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Bo Nix",
+    "Trikotnr": "10",
+    "Position": "QB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "JK Dobbins",
+    "Trikotnr": "27",
+    "Position": "RB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "RJ Harvey",
+    "Trikotnr": "12",
+    "Position": "RB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Evan Engram",
+    "Trikotnr": "1",
+    "Position": "TE",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Marvin Mims Jr",
+    "Trikotnr": "19",
+    "Position": "WR",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Courtland Sutton",
+    "Trikotnr": "14",
+    "Position": "WR",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Patrick Mahomes",
+    "Trikotnr": "15",
+    "Position": "QB",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Gardner Minshew",
+    "Trikotnr": "17",
+    "Position": "QB",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kareem Hunt",
+    "Trikotnr": "29",
+    "Position": "RB",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Isiah Pacheco",
+    "Trikotnr": "10",
+    "Position": "RB",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Travis Kelce",
+    "Trikotnr": "87",
+    "Position": "TE",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Marquise Brown",
+    "Trikotnr": "5",
+    "Position": "WR",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Rashee Rice",
+    "Trikotnr": "4",
+    "Position": "WR",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Juju Smith Schuster",
+    "Trikotnr": "9",
+    "Position": "WR",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Xavier Worthy",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Geno Smith",
+    "Trikotnr": "7",
+    "Position": "QB",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Ashton Jeanty",
+    "Trikotnr": "2",
+    "Position": "RB",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Raheem Mostert",
+    "Trikotnr": "31",
+    "Position": "RB",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Brock Bowers",
+    "Trikotnr": "89",
+    "Position": "TE",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Tyler Lockett",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Justin Herbert",
+    "Trikotnr": "10",
+    "Position": "QB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Trey Lance",
+    "Trikotnr": "5",
+    "Position": "QB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Omarion Hampton",
+    "Trikotnr": "8",
+    "Position": "RB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Najee Harris",
+    "Trikotnr": "22",
+    "Position": "RB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Hassan Haskins",
+    "Trikotnr": "28",
+    "Position": "RB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kimani Vidal",
+    "Trikotnr": "30",
+    "Position": "RB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Keenan Allen",
+    "Trikotnr": "13",
+    "Position": "WR",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Quentin Johnston",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Ladd McConkey",
+    "Trikotnr": "15",
+    "Position": "WR",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Dak Prescott",
+    "Trikotnr": "4",
+    "Position": "QB",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Javonte Williams",
+    "Trikotnr": "33",
+    "Position": "RB",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jake Ferguson",
+    "Trikotnr": "87",
+    "Position": "TE",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Luke Schoonmaker",
+    "Trikotnr": "86",
+    "Position": "TE",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "CeeDee Lamb",
+    "Trikotnr": "88",
+    "Position": "WR",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "George Pickens",
+    "Trikotnr": "3",
+    "Position": "WR",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jalen Tolbert",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "KaVontae Turpin",
+    "Trikotnr": "9",
+    "Position": "WR",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jaxson Dart",
+    "Trikotnr": "6",
+    "Position": "QB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Russel Wilson",
+    "Trikotnr": "3",
+    "Position": "QB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jameis Winston",
+    "Trikotnr": "19",
+    "Position": "QB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Devin Singletary",
+    "Trikotnr": "26",
+    "Position": "RB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Cam Skattebo",
+    "Trikotnr": "44",
+    "Position": "RB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Tyrone Tracy Jr",
+    "Trikotnr": "29",
+    "Position": "RB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Malik Nabers",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "WanDale Robinson",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Darius Slayton",
+    "Trikotnr": "18",
+    "Position": "WR",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jalen Hurts",
+    "Trikotnr": "1",
+    "Position": "QB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Saquon Barkley",
+    "Trikotnr": "26",
+    "Position": "RB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Tank Bigsby",
+    "Trikotnr": "37",
+    "Position": "RB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Dallas Goedert",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "AJ Brown",
+    "Trikotnr": "11",
+    "Position": "WR",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "DeVonta Smith",
+    "Trikotnr": "6",
+    "Position": "WR",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jayden Daniels",
+    "Trikotnr": "5",
+    "Position": "QB",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Marcus Mariota",
+    "Trikotnr": "8",
+    "Position": "QB",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Austin Ekeler",
+    "Trikotnr": "30",
+    "Position": "RB",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Zach Ertz",
+    "Trikotnr": "86",
+    "Position": "TE",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Terry McLaurin",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Deebo Samuel Sr",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Caleb Williams",
+    "Trikotnr": "18",
+    "Position": "QB",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Kyle Monagai",
+    "Trikotnr": "25",
+    "Position": "RB",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Dandre Swift",
+    "Trikotnr": "4",
+    "Position": "RB",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Cole Kmet",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Colston Loveland",
+    "Trikotnr": "84",
+    "Position": "TE",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "DJ Moore",
+    "Trikotnr": "2",
+    "Position": "WR",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Rome Odunze",
+    "Trikotnr": "15",
+    "Position": "WR",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jared Goff",
+    "Trikotnr": "16",
+    "Position": "QB",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jahmyr Gibbs",
+    "Trikotnr": "0",
+    "Position": "RB",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "David Montgomery",
+    "Trikotnr": "5",
+    "Position": "RB",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Sam LaPorta",
+    "Trikotnr": "87",
+    "Position": "TE",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Amon Ra St Brown",
+    "Trikotnr": "14",
+    "Position": "WR",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jordan Love",
+    "Trikotnr": "10",
+    "Position": "QB",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Josh Jacobs",
+    "Trikotnr": "8",
+    "Position": "RB",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Tucker Kraft",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Romeo Doubs ",
+    "Trikotnr": "87",
+    "Position": "WR",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Christian Watson",
+    "Trikotnr": "9",
+    "Position": "WR",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "J J McCarthy",
+    "Trikotnr": "9",
+    "Position": "QB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Carson Wentz",
+    "Trikotnr": "11",
+    "Position": "QB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Aaron Jones",
+    "Trikotnr": "33",
+    "Position": "RB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "TJ Hockenson",
+    "Trikotnr": "87",
+    "Position": "TE",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jordan Addison",
+    "Trikotnr": "3",
+    "Position": "WR",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Justin Jefferson",
+    "Trikotnr": "18",
+    "Position": "WR",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jalen Nailor",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Adam Thielen",
+    "Trikotnr": "19",
+    "Position": "WR",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Kirk Cousins",
+    "Trikotnr": "18",
+    "Position": "QB",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Michael Penix Jr",
+    "Trikotnr": "9",
+    "Position": "QB",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Tyler Allgeier",
+    "Trikotnr": "25",
+    "Position": "RB",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Bijan Robinson",
+    "Trikotnr": "7",
+    "Position": "RB",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Kyle Pitts",
+    "Trikotnr": "8",
+    "Position": "TE",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Drake London",
+    "Trikotnr": "5",
+    "Position": "WR",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Darnell Mooney",
+    "Trikotnr": "1",
+    "Position": "WR",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Andy Dalton",
+    "Trikotnr": "14",
+    "Position": "QB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Bryce Young",
+    "Trikotnr": "9",
+    "Position": "QB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Rico Dowdle",
+    "Trikotnr": "5",
+    "Position": "RB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Chuba Hubbard",
+    "Trikotnr": "30",
+    "Position": "RB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "James Mitchell",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Xavier Legette",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Tetairoa McMillan",
+    "Trikotnr": "4",
+    "Position": "WR",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Spencer Rattler",
+    "Trikotnr": "2",
+    "Position": "QB",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Tyler Shough",
+    "Trikotnr": "6",
+    "Position": "QB",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Alvin Kamara",
+    "Trikotnr": "41",
+    "Position": "RB",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Taysom Hill",
+    "Trikotnr": "7",
+    "Position": "TE",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Chris Olave",
+    "Trikotnr": "12",
+    "Position": "WR",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Teddy Bridgewater",
+    "Trikotnr": "10",
+    "Position": "QB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Baker Mayfield",
+    "Trikotnr": "6",
+    "Position": "QB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Bucky Irving",
+    "Trikotnr": "7",
+    "Position": "RB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Rachaad White",
+    "Trikotnr": "1",
+    "Position": "RB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Cade Otton",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Emeka Egbuka",
+    "Trikotnr": "2",
+    "Position": "WR",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Mike Evans",
+    "Trikotnr": "13",
+    "Position": "WR",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Chris Godwin Jr",
+    "Trikotnr": "14",
+    "Position": "WR",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Kyler Murray",
+    "Trikotnr": "1",
+    "Position": "QB",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Trey Benson",
+    "Trikotnr": "33",
+    "Position": "RB",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Michael Carter",
+    "Trikotnr": "22",
+    "Position": "RB",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "James Conner",
+    "Trikotnr": "6",
+    "Position": "RB",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Trey McBride",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Marvin Harrison Jr",
+    "Trikotnr": "18",
+    "Position": "WR",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Michael Wilson",
+    "Trikotnr": "14",
+    "Position": "WR",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jimmy Garoppolo",
+    "Trikotnr": "11",
+    "Position": "QB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Matthew Stafford",
+    "Trikotnr": "9",
+    "Position": "QB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Blake Corum",
+    "Trikotnr": "22",
+    "Position": "RB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kyren Williams",
+    "Trikotnr": "23",
+    "Position": "RB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Terrance Ferguson",
+    "Trikotnr": "18",
+    "Position": "TE",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Tyler Higbee",
+    "Trikotnr": "89",
+    "Position": "TE",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Davante Adams",
+    "Trikotnr": "17",
+    "Position": "WR",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Puka Nacua",
+    "Trikotnr": "12",
+    "Position": "WR",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Mac Jones",
+    "Trikotnr": "10",
+    "Position": "QB",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Brock Purdy",
+    "Trikotnr": "13",
+    "Position": "QB",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Christian McCaffrey",
+    "Trikotnr": "23",
+    "Position": "RB",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "George Kittle",
+    "Trikotnr": "85",
+    "Position": "TE",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jake Tonges",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Brandon Aiyuk",
+    "Trikotnr": "11",
+    "Position": "WR",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jauan Jennings ",
+    "Trikotnr": "15",
+    "Position": "WR",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Demarcus Robinson",
+    "Trikotnr": "5",
+    "Position": "WR",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Sam Darnold",
+    "Trikotnr": "14",
+    "Position": "QB",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Drew Lock",
+    "Trikotnr": "2",
+    "Position": "QB",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Zach Charbonnet",
+    "Trikotnr": "26",
+    "Position": "RB",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kenneth Walker III",
+    "Trikotnr": "9",
+    "Position": "RB",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "AJ Barner",
+    "Trikotnr": "88",
+    "Position": "TE",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Cooper Kupp",
+    "Trikotnr": "10",
+    "Position": "WR",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Rashid Shaheed",
+    "Trikotnr": "22",
+    "Position": "WR",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jaxon Smith Njigba",
+    "Trikotnr": "11",
+    "Position": "WR",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Aj Espenesa",
+    "Trikotnr": "57",
+    "Position": "DE",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Maxwell Hairston",
+    "Trikotnr": "31",
+    "Position": "CB",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Matt Milano",
+    "Trikotnr": "58",
+    "Position": "LB",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Joey Bosa",
+    "Trikotnr": "97",
+    "Position": "DE",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Greg Rousseau",
+    "Trikotnr": "50",
+    "Position": "DE",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Cole Bishop",
+    "Trikotnr": "24",
+    "Position": "S",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Christian Benford",
+    "Trikotnr": "47",
+    "Position": "CB",
+    "Team": "Buffalo Bills",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Rasul Douglas",
+    "Trikotnr": "26",
+    "Position": "CB",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jordyn Brooks",
+    "Trikotnr": "20",
+    "Position": "LB",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Tyrel Dodson",
+    "Trikotnr": "25",
+    "Position": "LB",
+    "Team": "Miami Dolphins",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Robert Spillane",
+    "Trikotnr": "14",
+    "Position": "LB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Marcus Jones",
+    "Trikotnr": "25",
+    "Position": "CB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Harold Landry III",
+    "Trikotnr": "2",
+    "Position": "LB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Christian Gonzalez",
+    "Trikotnr": "0",
+    "Position": "CB",
+    "Team": "New England Patriots",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Will Mcdonald IV",
+    "Trikotnr": "9",
+    "Position": "DE",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Malachi Moore",
+    "Trikotnr": "27",
+    "Position": "S",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jamien Sherwood",
+    "Trikotnr": "44",
+    "Position": "LB",
+    "Team": "New York Jets",
+    "Conference": "AFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Marlon Humphrey",
+    "Trikotnr": "44",
+    "Position": "CB",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Nate Wiggins",
+    "Trikotnr": "2",
+    "Position": "CB",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Kyle Hamilton",
+    "Trikotnr": "14",
+    "Position": "S",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Roquan Smith",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Malaki Starks",
+    "Trikotnr": "24",
+    "Position": "S",
+    "Team": "Baltimore Ravens",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Barrett Carter",
+    "Trikotnr": "49",
+    "Position": "LB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Dax Hill",
+    "Trikotnr": "23",
+    "Position": "CB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jordan Battle",
+    "Trikotnr": "27",
+    "Position": "S",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Dj Turner II",
+    "Trikotnr": "20",
+    "Position": "CB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Demetrius Knight Jr",
+    "Trikotnr": "44",
+    "Position": "LB",
+    "Team": "Cincinnati Bengals",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Carson Schwesinger",
+    "Trikotnr": "49",
+    "Position": "LB",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Maliek Collins",
+    "Trikotnr": "96",
+    "Position": "DT",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Myles Garrett",
+    "Trikotnr": "95",
+    "Position": "DE",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Tyson Campbell",
+    "Trikotnr": "7",
+    "Position": "CB",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Ronnie Hickman",
+    "Trikotnr": "33",
+    "Position": "S",
+    "Team": "Cleveland Browns",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "TJ Watt",
+    "Trikotnr": "90",
+    "Position": "LB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Nick Herbig",
+    "Trikotnr": "51",
+    "Position": "LB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Alex Highsmith",
+    "Trikotnr": "56",
+    "Position": "LB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jalen Ramsey",
+    "Trikotnr": "5",
+    "Position": "CB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Patrick Queen",
+    "Trikotnr": "6",
+    "Position": "LB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Payton Wilson",
+    "Trikotnr": "41",
+    "Position": "LB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jack Sawyer",
+    "Trikotnr": "33",
+    "Position": "LB",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Kyle Dugger",
+    "Trikotnr": "29",
+    "Position": "S",
+    "Team": "Pittsburg Steelers",
+    "Conference": "AFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Azeez Al Shaair",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Calen Bullock",
+    "Trikotnr": "2",
+    "Position": "S",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Derek Stingley Jr",
+    "Trikotnr": "24",
+    "Position": "CB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jalen Pitre",
+    "Trikotnr": "5",
+    "Position": "S",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Will Anderson Jr",
+    "Trikotnr": "51",
+    "Position": "DE",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Danielle Hunter",
+    "Trikotnr": "55",
+    "Position": "DE",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Kamari Lassiter",
+    "Trikotnr": "4",
+    "Position": "CB",
+    "Team": "Houston Texans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Laiatu Latu",
+    "Trikotnr": "97",
+    "Position": "DE",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Cam Bynum",
+    "Trikotnr": "0",
+    "Position": "S",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Germaine Pratt",
+    "Trikotnr": "53",
+    "Position": "LB",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Mekhi Blackmon",
+    "Trikotnr": "29",
+    "Position": "CB",
+    "Team": "Indianapolis Colts",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jourdan Lewis",
+    "Trikotnr": "2",
+    "Position": "CB",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jarrian Jones",
+    "Trikotnr": "22",
+    "Position": "CB",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Antonio Johnson",
+    "Trikotnr": "26",
+    "Position": "S",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Josh Hines Allen",
+    "Trikotnr": "41",
+    "Position": "DE",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Foyesade Oluokun",
+    "Trikotnr": "23",
+    "Position": "LB",
+    "Team": "Jacksonville Jaguars",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Cedric Gray",
+    "Trikotnr": "33",
+    "Position": "LB",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Cody Barton",
+    "Trikotnr": "50",
+    "Position": "LB",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jeffery Simmons",
+    "Trikotnr": "98",
+    "Position": "DT",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Amani Hooker",
+    "Trikotnr": "37",
+    "Position": "S",
+    "Team": "Tennessee Titans",
+    "Conference": "AFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Dondrea Tillman",
+    "Trikotnr": "92",
+    "Position": "LB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Zach Allen",
+    "Trikotnr": "99",
+    "Position": "DE",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jonathon Cooper",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Nik Bonitto",
+    "Trikotnr": "15",
+    "Position": "LB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Alex Singleton",
+    "Trikotnr": "49",
+    "Position": "LB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Riley Moss",
+    "Trikotnr": "21",
+    "Position": "CB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Talanoa Hufanga",
+    "Trikotnr": "9",
+    "Position": "S",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "JaQuan Mcmillian",
+    "Trikotnr": "29",
+    "Position": "CB",
+    "Team": "Denver Broncos",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Chris Jones",
+    "Trikotnr": "95",
+    "Position": "DT",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Drue Tranquill",
+    "Trikotnr": "23",
+    "Position": "LB",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Nick Bolton",
+    "Trikotnr": "32",
+    "Position": "LB",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Chamarri Conner",
+    "Trikotnr": "27",
+    "Position": "S",
+    "Team": "Kansas City Chiefs",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Devin White",
+    "Trikotnr": "45",
+    "Position": "LB",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kyu Blu Kelly",
+    "Trikotnr": "36",
+    "Position": "CB",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Maxx Crosby",
+    "Trikotnr": "98",
+    "Position": "DE",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jeremy Chinn",
+    "Trikotnr": "11",
+    "Position": "S",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Isaiah Pola Mao",
+    "Trikotnr": "20",
+    "Position": "S",
+    "Team": "Las Vegas Raiders",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Daiyan Henley",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Donte Jackson",
+    "Trikotnr": "26",
+    "Position": "CB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Tony Jefferson",
+    "Trikotnr": "23",
+    "Position": "S",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Khalil Mack",
+    "Trikotnr": "52",
+    "Position": "LB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Tuli Tuipulotu",
+    "Trikotnr": "45",
+    "Position": "LB",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Derwin James Jr",
+    "Trikotnr": "3",
+    "Position": "S",
+    "Team": "Los Angeles Chargers",
+    "Conference": "AFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Donovan Wilson",
+    "Trikotnr": "6",
+    "Position": "S",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jadeveon Clowney",
+    "Trikotnr": "42",
+    "Position": "DE",
+    "Team": "Dallas Cowboys",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Abdul Carter",
+    "Trikotnr": "51",
+    "Position": "LB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Brian Burns",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Paulson Adebo",
+    "Trikotnr": "21",
+    "Position": "CB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Dru Phillips",
+    "Trikotnr": "22",
+    "Position": "CB",
+    "Team": "New York Giants",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Zack Baun",
+    "Trikotnr": "53",
+    "Position": "LB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jaylyx Hunt",
+    "Trikotnr": "58",
+    "Position": "LB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Cooper Dejean",
+    "Trikotnr": "33",
+    "Position": "CB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Andrew Mukuba",
+    "Trikotnr": "24",
+    "Position": "S",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jihaad Campbell",
+    "Trikotnr": "30",
+    "Position": "LB",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Moro Ojomo",
+    "Trikotnr": "97",
+    "Position": "DT",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jordan Davis",
+    "Trikotnr": "90",
+    "Position": "DT",
+    "Team": "Philadelphia Eagles",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Von Miller",
+    "Trikotnr": "24",
+    "Position": "LB",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Mike Sainristil",
+    "Trikotnr": "0",
+    "Position": "CB",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Quan Martin",
+    "Trikotnr": "20",
+    "Position": "S",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Jeremy Reaves",
+    "Trikotnr": "39",
+    "Position": "S",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Bobby Wagner",
+    "Trikotnr": "54",
+    "Position": "LB",
+    "Team": "Washington Commanders",
+    "Conference": "NFC",
+    "Division": "East"
+  },
+  {
+    "Name": "Montez Sweat",
+    "Trikotnr": "98",
+    "Position": "DE",
+    "Team": "Chicago Bears",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "DJ Reed",
+    "Trikotnr": "4",
+    "Position": "CB",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Kerby Joseph",
+    "Trikotnr": "31",
+    "Position": "S",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Aidan Hutchinson",
+    "Trikotnr": "97",
+    "Position": "DE",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Jack Campbell",
+    "Trikotnr": "46",
+    "Position": "LB",
+    "Team": "Detroit Lions",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Xavier Mckinney",
+    "Trikotnr": "29",
+    "Position": "S",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Evan Williams",
+    "Trikotnr": "33",
+    "Position": "S",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Micah Parsons",
+    "Trikotnr": "1",
+    "Position": "DE",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Keisean Nixon",
+    "Trikotnr": "25",
+    "Position": "CB",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Edgerrin Cooper",
+    "Trikotnr": "56",
+    "Position": "LB",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Zaire Franklin",
+    "Trikotnr": "44",
+    "Position": "LB",
+    "Team": "Green Bay Packers",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Andrew Van Ginkel",
+    "Trikotnr": "43",
+    "Position": "LB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Dallas Turner",
+    "Trikotnr": "15",
+    "Position": "LB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Eric Wilson",
+    "Trikotnr": "55",
+    "Position": "LB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Blake Cashman",
+    "Trikotnr": "51",
+    "Position": "LB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Byron Murphy Jr",
+    "Trikotnr": "7",
+    "Position": "CB",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Joshua Metellus",
+    "Trikotnr": "44",
+    "Position": "S",
+    "Team": "Minnesota Vikings",
+    "Conference": "NFC",
+    "Division": "North"
+  },
+  {
+    "Name": "Brandon Dorlus",
+    "Trikotnr": "54",
+    "Position": "DT",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "James Pearce Jr",
+    "Trikotnr": "27",
+    "Position": "LB",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jessie Bates III",
+    "Trikotnr": "3",
+    "Position": "S",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Xavier Watts",
+    "Trikotnr": "31",
+    "Position": "S",
+    "Team": "Atlanta Falcons",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jaycee Horn",
+    "Trikotnr": "8",
+    "Position": "CB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Mike Jackson",
+    "Trikotnr": "2",
+    "Position": "CB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Christian Rozeboom",
+    "Trikotnr": "56",
+    "Position": "LB",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Nick Scott",
+    "Trikotnr": "21",
+    "Position": "S",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "TreVon Moehrig",
+    "Trikotnr": "7",
+    "Position": "S",
+    "Team": "Carolina Panthers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Chase Young",
+    "Trikotnr": "99",
+    "Position": "DE",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Cameron Jordan",
+    "Trikotnr": "94",
+    "Position": "DE",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Pete Werner",
+    "Trikotnr": "20",
+    "Position": "LB",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Kool Aid Mckinstry",
+    "Trikotnr": "4",
+    "Position": "CB",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jonas Sanker",
+    "Trikotnr": "33",
+    "Position": "S",
+    "Team": "New Orleans Saints",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Jacob Parrish",
+    "Trikotnr": "25",
+    "Position": "CB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Antoine Winfield Jr",
+    "Trikotnr": "31",
+    "Position": "S",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Yaya Diaby",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Tykee Smith",
+    "Trikotnr": "23",
+    "Position": "S",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Lavonte David",
+    "Trikotnr": "54",
+    "Position": "LB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Sirvocea Dennis",
+    "Trikotnr": "8",
+    "Position": "LB",
+    "Team": "Tampa Bay Buccaneers",
+    "Conference": "NFC",
+    "Division": "South"
+  },
+  {
+    "Name": "Denzel Burke",
+    "Trikotnr": "29",
+    "Position": "CB",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Calais Campbell",
+    "Trikotnr": "93",
+    "Position": "DT",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Josh Sweat",
+    "Trikotnr": "10",
+    "Position": "LB",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Budda Baker",
+    "Trikotnr": "3",
+    "Position": "S",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Dadrion Taylor Demerson",
+    "Trikotnr": "42",
+    "Position": "S",
+    "Team": "Arizona Cardinals",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kam Curl",
+    "Trikotnr": "3",
+    "Position": "S",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Emmanuel Forbes Jr",
+    "Trikotnr": "1",
+    "Position": "CB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kobie Turner",
+    "Trikotnr": "91",
+    "Position": "DE",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Jared Verse",
+    "Trikotnr": "8",
+    "Position": "LB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Byron Young",
+    "Trikotnr": "0",
+    "Position": "LB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Kamren Kinchens",
+    "Trikotnr": "26",
+    "Position": "S",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Nate Landman",
+    "Trikotnr": "53",
+    "Position": "LB",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "",
+    "Trikotnr": "",
+    "Position": "",
+    "Team": "Los Angeles Rams",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Deommodore Lenoir",
+    "Trikotnr": "2",
+    "Position": "CB",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Dee Winters",
+    "Trikotnr": "53",
+    "Position": "LB",
+    "Team": "San Francisco 49ers",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Demarcus Lawrence",
+    "Trikotnr": "0",
+    "Position": "DE",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Byron Murphy II",
+    "Trikotnr": "91",
+    "Position": "DT",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Uchenna  Nwosu",
+    "Trikotnr": "7",
+    "Position": "LB",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Leonard Williams",
+    "Trikotnr": "99",
+    "Position": "DE",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Nick Emmanwori",
+    "Trikotnr": "3",
+    "Position": "S",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  },
+  {
+    "Name": "Ernest Jones IV",
+    "Trikotnr": "13",
+    "Position": "LB",
+    "Team": "Seattle Seahawks",
+    "Conference": "NFC",
+    "Division": "West"
+  }
+]

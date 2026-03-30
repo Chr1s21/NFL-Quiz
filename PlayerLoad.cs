@@ -1,20 +1,39 @@
-﻿using NFL_Quiz;
-using System;
-using System.Collections.Generic;
+﻿using System;
+using System.Collections.ObjectModel; 
 using System.IO;
 using System.Text.Json;
+using System.Collections.Generic;
 
-public static class PlayerLoad
+namespace NFL_Quiz
 {
-    public static List<Player> LoadPlayers(string filePath)
+    public static class PlayerLoad
     {
-        if (!File.Exists(filePath))
-            return new List<Player>();
+        public static ObservableCollection<Player> LoadPlayers(string filePath)
+        {
+            if (!File.Exists(filePath))
+            {
+                return new ObservableCollection<Player>();
+            }
 
-        string json = File.ReadAllText(filePath);
+            try
+            {
+                string json = File.ReadAllText(filePath);
+                var playerList = JsonSerializer.Deserialize<List<Player>>(json);
 
-        return JsonSerializer.Deserialize<List<Player>>(json)
-               ?? new List<Player>();
+                return playerList != null
+                    ? new ObservableCollection<Player>(playerList)
+                    : new ObservableCollection<Player>();
+            }
+            catch (Exception e)
+            {
+                return new ObservableCollection<Player>();
+            }
+        }
+
+        public static void SavePlayers(string filePath, ObservableCollection<Player> players)
+        {
+            string json = JsonSerializer.Serialize(players, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, json);
+        }
     }
-
 }

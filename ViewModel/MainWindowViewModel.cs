@@ -10,7 +10,7 @@ namespace NFL_Quiz.ViewModel
     {
         private object currentPage;
 
-        private object CurrentPage
+        public object CurrentPage
         {
             get { return currentPage; }
             set

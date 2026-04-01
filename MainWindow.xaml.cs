@@ -31,24 +31,6 @@ namespace NFL_Quiz
             InitializeComponent();
             MainWindowViewModel vm = new MainWindowViewModel();
             DataContext = vm;
-
-
-           // GamePage gamePage = new GamePage();
-           // MainFrame.Content = gamePage;
-
         }
-
-        /*private void GameButton_Click(object sender, RoutedEventArgs e)
-        {
-            GamePage gamePage = new GamePage();
-            MainFrame.Content = gamePage;
-        }
-        private void SettingsButton_Click(object sender, RoutedEventArgs e)
-        {
-            SettingsPage settingsPage = new SettingsPage();
-            MainFrame.Content = settingsPage;
-        }
-        */
     }
-
 }

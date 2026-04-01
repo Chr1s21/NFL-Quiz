@@ -7,6 +7,9 @@ namespace NFL_Quiz.ViewModel
 {
     internal class GamePageViewModel : ViewModelBase
     {
-
+        public GamePageViewModel() 
+        { 
+        
+        }
     }
 }

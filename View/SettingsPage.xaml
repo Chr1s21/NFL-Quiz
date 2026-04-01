@@ -14,9 +14,9 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.Row="0">
-            <Button Content="Add Player" Click="AddPlayer_Click" HorizontalAlignment="Left" Margin="10" Width="100"/>
-            <Button Content="Delete Player" Click="Delete_Click" HorizontalAlignment="Left" Margin="10" Width="100"/>
-            <Button Content="Save List" Click="Save_Click" HorizontalAlignment="Left" Margin="10" Width="100"/>
+            <Button Content="Add Player" Command="{Binding AddPlayerCommand}" HorizontalAlignment="Left" Margin="10" Width="100"/>
+            <Button Content="Delete Player" Command="{Binding DeletePlayerCommand}" HorizontalAlignment="Left" Margin="10" Width="100"/>
+            <Button Content="Save List" Command="{Binding SaveCommand}" HorizontalAlignment="Left" Margin="10" Width="100"/>
         </StackPanel>
 
         <DataGrid Grid.Row="1" x:Name="PlayerGrid" 

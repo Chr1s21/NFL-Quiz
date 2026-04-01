@@ -20,6 +20,6 @@
 
         <Button Grid.Row="0" Grid.Column="0" Content="Game" Command="{Binding ShowGameCommand}"  Margin="10"/>
         <Button Grid.Row="1" Grid.Column="0" Content="Settings" Command="{Binding ShowSettingsCommand}" Margin="10"/>
-        <Frame Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Content="{Binding CurrentPage}"  NavigationUIVisibility="Hidden"/>
+        <Frame Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Content="{Binding CurrentPage, UpdateSourceTrigger=PropertyChanged}"  NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

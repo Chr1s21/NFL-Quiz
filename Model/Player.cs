@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NFL_Quiz
+namespace NFL_Quiz.Model
 {
     public class Player
     {

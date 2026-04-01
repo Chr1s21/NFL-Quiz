@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NFL_Quiz.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,12 +29,16 @@ namespace NFL_Quiz
         public MainWindow()
         {
             InitializeComponent();
-            GamePage gamePage = new GamePage();
-            MainFrame.Content = gamePage;
+            MainWindowViewModel vm = new MainWindowViewModel();
+            DataContext = vm;
+
+
+           // GamePage gamePage = new GamePage();
+           // MainFrame.Content = gamePage;
 
         }
 
-        private void GameButton_Click(object sender, RoutedEventArgs e)
+        /*private void GameButton_Click(object sender, RoutedEventArgs e)
         {
             GamePage gamePage = new GamePage();
             MainFrame.Content = gamePage;
@@ -43,6 +48,7 @@ namespace NFL_Quiz
             SettingsPage settingsPage = new SettingsPage();
             MainFrame.Content = settingsPage;
         }
+        */
     }
 
 }

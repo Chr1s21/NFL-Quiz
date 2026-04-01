@@ -16,6 +16,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Path = System.IO.Path;
 using FuzzySharp;
+using NFL_Quiz.Model;
+using NFL_Quiz.ViewModel;
 
 namespace NFL_Quiz
 {

@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.ObjectModel; 
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
+using NFL_Quiz.Model;
 
-namespace NFL_Quiz
+namespace NFL_Quiz.ViewModel
 {
     public static class PlayerLoad
     {

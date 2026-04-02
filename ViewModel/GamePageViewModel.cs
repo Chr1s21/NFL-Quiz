@@ -18,7 +18,32 @@ namespace NFL_Quiz.ViewModel
         public string SearchText
         {
             get => seartchText;
-            set { seartchText = value; OnPropertyChanged(); UpdateSuggestions(); }
+            set
+            {
+                if (seartchText != value)
+                {
+                    seartchText = value;
+                    OnPropertyChanged();
+                    UpdateSuggestions();
+                }
+            }
+        }
+
+        private string selectedSuggestion;
+        public string SelectedSuggestion
+        {
+            get => selectedSuggestion;
+            set
+            {
+                selectedSuggestion = value;
+                OnPropertyChanged();
+
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    SearchText = value;
+                    Suggestions.Clear();
+                }
+            }
         }
 
         public ObservableCollection<string> Suggestions
@@ -51,27 +76,43 @@ namespace NFL_Quiz.ViewModel
 
         private void UpdateSuggestions()
         {
-            if(string.IsNullOrWhiteSpace(SearchText) || SearchText.Length < 3)
+            Suggestions.Clear();
+            if (string.IsNullOrWhiteSpace(SearchText) || SearchText.Length < 3)
             {
-                Suggestions = new ObservableCollection<string>();
+                return;
+            }
+
+            if (allPlayers.Any(p => p.Name.Equals(SearchText, StringComparison.OrdinalIgnoreCase)))
+            {
                 return;
             }
 
             var results = FuzzySharp.Process.ExtractTop(SearchText, allPlayers.Select(p => p.Name), limit: 3)
-                            .Where(r => r.Score >= 70)
-                            .Select(r => r.Value);
-            Suggestions = new ObservableCollection<string>(results);
+                    .Where(r => r.Score >= 70)
+                    .Select(r => r.Value);
+
+            foreach (var result in results)
+                Suggestions.Add(result);
+
         }
+
+
 
         private void ExecuteSubmit()
         {
             var guessedPlayer = allPlayers.FirstOrDefault(p => p.Name.Equals(SearchText, StringComparison.OrdinalIgnoreCase));
             if (guessedPlayer == null)
             {
+                MessageBox.Show("Spieler nicht gefunden");
                 return;
             }
             var result = new GuessResult { Player = guessedPlayer };
-            result.nameBrush = guessedPlayer.Name == targetPlayer.Name ? Brushes.Green : Brushes.Red;
+            result.nameBrush = guessedPlayer.Name == targetPlayer.Name ? Brushes.Lime : Brushes.Red;
+            result.positionBrush = guessedPlayer.Position == targetPlayer.Position ? Brushes.Lime : Brushes.Red;
+            result.teamBrush = guessedPlayer.Team == targetPlayer.Team ? Brushes.Lime : Brushes.Red;
+            result.conferenceBrush = guessedPlayer.Conference == targetPlayer.Conference ? Brushes.Lime : Brushes.Red;
+            result.divisionBrush = guessedPlayer.Division == targetPlayer.Division ? Brushes.Lime : Brushes.Red;
+
             int gNr = int.Parse(guessedPlayer.Trikotnr);
             int tNr = int.Parse(targetPlayer.Trikotnr);
             if (gNr == tNr) 
@@ -84,44 +125,15 @@ namespace NFL_Quiz.ViewModel
                 result.trikotDisplay = gNr + (gNr > tNr ? " ↓" : " ↑");
             }
 
-            if (guessedPlayer.Position == targetPlayer.Position)
-            { 
-                result.positionBrush = Brushes.Lime;
-            }
-            else
-            {
-                result.positionBrush = Brushes.Red;
-            }
-
-            if(guessedPlayer.Team == targetPlayer.Team)
-            {
-                result.teamBrush = Brushes.Lime;
-            }
-            else
-            {
-                result.teamBrush = Brushes.Red;
-            }
-
-            if (guessedPlayer.Conference == targetPlayer.Conference)
-            {
-                result.conferenceBrush = Brushes.Lime;
-            }
-            else
-            {
-                result.conferenceBrush = Brushes.Red;
-            }
-
-            if(guessedPlayer.Division == targetPlayer.Division)
-            {
-                result.divisionBrush = Brushes.Lime;
-            }
-            else
-            {
-                result.divisionBrush = Brushes.Red;
-            }
-
             Guesses.Add(result);
             SearchText = "";
+
+            if(guesses.Count == 5)
+            {
+                MessageBox.Show($"Game Over! You've used all 5 attempts. The correct player was {targetPlayer.Name}.");
+                StartNewGame();
+                return;
+            }
 
             if(guessedPlayer.Name == targetPlayer.Name)
             {

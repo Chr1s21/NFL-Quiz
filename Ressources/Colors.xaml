@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-namespace NFL_Quiz.Ressources
-{
-class Colors
-{
-}
-}
+    <Color x:Key="SuccessGreenColor">lime</Color>
+    <Color x:Key="ErrorRedColor">red</Color>
+
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessGreenColor}"/>
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorRedColor}"/>
+
+</ResourceDictionary>

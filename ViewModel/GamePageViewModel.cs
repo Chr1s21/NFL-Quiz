@@ -96,10 +96,14 @@ namespace NFL_Quiz.ViewModel
 
         }
 
-
+        private Brush GetColorResource(string key)
+        {
+            return Application.Current.Resources[key] as Brush ?? Brushes.Gray;
+        }
 
         private void ExecuteSubmit()
         {
+            
             var guessedPlayer = allPlayers.FirstOrDefault(p => p.Name.Equals(SearchText, StringComparison.OrdinalIgnoreCase));
             if (guessedPlayer == null)
             {
@@ -107,31 +111,32 @@ namespace NFL_Quiz.ViewModel
                 return;
             }
             var result = new GuessResult { Player = guessedPlayer };
-            result.nameBrush = guessedPlayer.Name == targetPlayer.Name ? Brushes.Lime : Brushes.Red;
-            result.positionBrush = guessedPlayer.Position == targetPlayer.Position ? Brushes.Lime : Brushes.Red;
-            result.teamBrush = guessedPlayer.Team == targetPlayer.Team ? Brushes.Lime : Brushes.Red;
-            result.conferenceBrush = guessedPlayer.Conference == targetPlayer.Conference ? Brushes.Lime : Brushes.Red;
-            result.divisionBrush = guessedPlayer.Division == targetPlayer.Division ? Brushes.Lime : Brushes.Red;
-
+            result.nameBrush = guessedPlayer.Name == targetPlayer.Name ? GetColorResource("SuccessBrush") : GetColorResource("ErrorBrush");
+            result.positionBrush = guessedPlayer.Position == targetPlayer.Position ? GetColorResource("SuccessBrush") : GetColorResource("ErrorBrush");
+            result.teamBrush = guessedPlayer.Team == targetPlayer.Team ? GetColorResource("SuccessBrush") : GetColorResource("ErrorBrush");
+            result.conferenceBrush = guessedPlayer.Conference == targetPlayer.Conference ? GetColorResource("SuccessBrush") : GetColorResource("ErrorBrush");
+            result.divisionBrush = guessedPlayer.Division == targetPlayer.Division ? GetColorResource("SuccessBrush") : GetColorResource("ErrorBrush");
+            
+            int greenFields = 0;
             int gNr = int.Parse(guessedPlayer.Trikotnr);
             int tNr = int.Parse(targetPlayer.Trikotnr);
             if (gNr == tNr) 
             {
-                result.trikotBrush = Brushes.Lime; result.trikotDisplay = gNr.ToString();
+                result.trikotBrush = GetColorResource("SuccessBrush"); result.trikotDisplay = gNr.ToString();
+                greenFields++;
             }
             else 
             {
-                result.trikotBrush = Brushes.Red;
+                result.trikotBrush = GetColorResource("ErrorBrush");
                 result.trikotDisplay = gNr + (gNr > tNr ? " ↓" : " ↑");
             }
-
-            int greenFields = 0;
-            if (result.nameBrush == Brushes.Lime) greenFields++;
-            if (result.positionBrush == Brushes.Lime) greenFields++;
-            if (result.teamBrush == Brushes.Lime) greenFields++;
-            if (result.conferenceBrush == Brushes.Lime) greenFields++;
-            if (result.divisionBrush == Brushes.Lime) greenFields++;
-            if (result.trikotBrush == Brushes.Lime) greenFields++;
+            
+            if (guessedPlayer.Name == targetPlayer.Name) greenFields++;
+            if (guessedPlayer.Position == targetPlayer.Position) greenFields++;
+            if (guessedPlayer.Team == targetPlayer.Team) greenFields++;
+            if (guessedPlayer.Conference == targetPlayer.Conference) greenFields++;
+            if (guessedPlayer.Division == targetPlayer.Division) greenFields++;
+            
 
             Guesses.Add(result);
             SearchText = "";

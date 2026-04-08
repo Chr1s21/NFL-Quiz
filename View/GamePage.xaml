@@ -44,9 +44,9 @@
                         IsDefault="True"
                         Content="Submit"
                         Command="{Binding SubmitCommand}"
-                        Height="40"
-                        MinWidth="60"
-                        VerticalAlignment="Center"
+                        Style="{StaticResource MyCustomButtonStyle}"
+                        Height="60"
+                        MinWidth="100"
                         Margin="5"/>
 
                 <ListBox Grid.Row="1"

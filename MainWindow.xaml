@@ -34,12 +34,14 @@
                 Grid.Column="0" 
                 Content="Game" 
                 Command="{Binding ShowGameCommand}"  
+                Style="{StaticResource StandardButton}"
                 Margin="10"/>
 
         <Button Grid.Row="1" 
                 Grid.Column="0" 
                 Content="Settings" 
                 Command="{Binding ShowSettingsCommand}" 
+                Style="{StaticResource StandardButton}"
                 Margin="10"/>
 
         <ContentControl Grid.Row="0" 

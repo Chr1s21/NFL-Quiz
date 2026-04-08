@@ -44,7 +44,7 @@
                         IsDefault="True"
                         Content="Submit"
                         Command="{Binding SubmitCommand}"
-                        Style="{StaticResource MyCustomButtonStyle}"
+                        Style="{StaticResource DesignedButton}"
                         Height="60"
                         MinWidth="100"
                         Margin="5"/>

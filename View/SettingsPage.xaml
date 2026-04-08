@@ -23,8 +23,9 @@
                   ItemsSource="{Binding Players}"
                   AutoGenerateColumns="True" 
                   Margin="10" 
-                  AlternatingRowBackground="GhostWhite"
-                  CanUserAddRows="False">
+                  AlternatingRowBackground="{StaticResource BackgroundBrush}"
+                  CanUserAddRows="False"
+                  ColumnWidth="*">
         </DataGrid>
     </Grid>
 </UserControl>

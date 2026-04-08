@@ -3,8 +3,10 @@
 
     <Color x:Key="SuccessGreenColor">lime</Color>
     <Color x:Key="ErrorRedColor">red</Color>
+	<Color x:Key="Background">GhostWhite</Color>
 
     <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessGreenColor}"/>
     <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorRedColor}"/>
+	<SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource Background}"/>
 
 </ResourceDictionary>

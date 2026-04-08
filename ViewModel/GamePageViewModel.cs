@@ -125,21 +125,46 @@ namespace NFL_Quiz.ViewModel
                 result.trikotDisplay = gNr + (gNr > tNr ? " ↓" : " ↑");
             }
 
+            int greenFields = 0;
+            if (result.nameBrush == Brushes.Lime) greenFields++;
+            if (result.positionBrush == Brushes.Lime) greenFields++;
+            if (result.teamBrush == Brushes.Lime) greenFields++;
+            if (result.conferenceBrush == Brushes.Lime) greenFields++;
+            if (result.divisionBrush == Brushes.Lime) greenFields++;
+            if (result.trikotBrush == Brushes.Lime) greenFields++;
+
             Guesses.Add(result);
             SearchText = "";
 
-            if(guesses.Count == 5)
+            if (guessedPlayer.Name == targetPlayer.Name)
             {
-                MessageBox.Show($"Game Over! You've used all 5 attempts. The correct player was {targetPlayer.Name}.");
+                MessageBox.Show($"Glückwunsch! Du hast {targetPlayer.Name} richtig erraten in {Guesses.Count} Versuchen!");
+                StartNewGame();
+            }
+
+            if (guesses.Count == 5)
+            {
+                if(greenFields >= 3)
+                {
+                    MessageBox.Show("Du bist nah dran! Hier hast du noch 2 extra versuche.");
+                }
+                else
+                {
+                    MessageBox.Show($"Game Over! Du hast 5 Versuche gehabt. Der gesuchte Spieler war {targetPlayer.Name}.");
+                    StartNewGame();
+                    return;
+                }
+                
+            }
+
+            if(guesses.Count == 7)
+            {
+                MessageBox.Show($"Game Over! Du hast es in 7 Versuchen nicht Geschafft. Der gesuchte Spieler war {targetPlayer.Name}.");
                 StartNewGame();
                 return;
             }
 
-            if(guessedPlayer.Name == targetPlayer.Name)
-            {
-                MessageBox.Show($"Congratulations! You've guessed the player {targetPlayer.Name} correctly in {Guesses.Count} attempts!", "Game Over", MessageBoxButton.OK, MessageBoxImage.Information);
-                StartNewGame();
-            }
+            
 
         }
     }

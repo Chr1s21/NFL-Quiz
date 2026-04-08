@@ -4,8 +4,20 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NFL_Quiz"
+        xmlns:vm="clr-namespace:NFL_Quiz.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="1000">
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:GamePageViewModel}">
+            <local:GamePage />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type vm:SettingsPageViewModel}">
+            <local:SettingsPage />
+        </DataTemplate>
+    </Window.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50" />
@@ -18,8 +30,21 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" Grid.Column="0" Content="Game" Command="{Binding ShowGameCommand}"  Margin="10"/>
-        <Button Grid.Row="1" Grid.Column="0" Content="Settings" Command="{Binding ShowSettingsCommand}" Margin="10"/>
-        <Frame Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Content="{Binding CurrentPage, UpdateSourceTrigger=PropertyChanged}"  NavigationUIVisibility="Hidden"/>
+        <Button Grid.Row="0" 
+                Grid.Column="0" 
+                Content="Game" 
+                Command="{Binding ShowGameCommand}"  
+                Margin="10"/>
+
+        <Button Grid.Row="1" 
+                Grid.Column="0" 
+                Content="Settings" 
+                Command="{Binding ShowSettingsCommand}" 
+                Margin="10"/>
+
+        <ContentControl Grid.Row="0" 
+                        Grid.Column="1" 
+                        Grid.RowSpan="3" 
+                        Content="{Binding CurrentViewModel}" />
     </Grid>
 </Window>

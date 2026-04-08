@@ -1,35 +1,31 @@
 ﻿using NFL_Quiz.MVVM;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Input;
 
 namespace NFL_Quiz.ViewModel
 {
     internal class MainWindowViewModel : ViewModelBase
     {
-        private object currentPage;
+        private ViewModelBase _currentViewModel;
 
-        public object CurrentPage
+        public ViewModelBase CurrentViewModel
         {
-            get { return currentPage; }
+            get => _currentViewModel;
             set
             {
-                currentPage = value;
+                _currentViewModel = value;
                 OnPropertyChanged();
             }
         }
 
         public ICommand ShowGameCommand { get; }
         public ICommand ShowSettingsCommand { get; }
-        public MainWindowViewModel() 
+
+        public MainWindowViewModel()
         {
-            CurrentPage = new GamePage();
+            CurrentViewModel = new GamePageViewModel();
 
-            ShowGameCommand = new RelayCommand(o => CurrentPage = new GamePage());
-
-            ShowSettingsCommand = new RelayCommand(o => CurrentPage = new SettingsPage());
+            ShowGameCommand = new RelayCommand(o => CurrentViewModel = new GamePageViewModel());
+            ShowSettingsCommand = new RelayCommand(o => CurrentViewModel = new SettingsPageViewModel());
         }
-
     }
 }

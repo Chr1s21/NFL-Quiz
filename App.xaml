@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:NFL_Quiz"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Ressources/Colors.xaml"/>
+                <ResourceDictionary Source="/Ressources/ButtonTemplate.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>

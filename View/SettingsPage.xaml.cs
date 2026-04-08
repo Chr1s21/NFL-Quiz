@@ -6,14 +6,13 @@ using NFL_Quiz.ViewModel;
 
 namespace NFL_Quiz
 {
-    public partial class SettingsPage : Page
+    public partial class SettingsPage : UserControl
     {
 
 
         public SettingsPage()
         {
             InitializeComponent();
-            this.DataContext = new SettingsPageViewModel();
         }
     }
 }

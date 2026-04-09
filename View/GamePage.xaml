@@ -14,7 +14,7 @@
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
-            <RowDefinition Height="120" />
+            <RowDefinition Height="150" />
             <RowDefinition />
         </Grid.RowDefinitions>
 
@@ -72,12 +72,12 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock Text="{Binding Player.Name}" Background="{Binding nameBrush}" Grid.Column="0" VerticalAlignment="Center" Padding="5"/>
-                        <TextBlock Text="{Binding trikotDisplay}" Background="{Binding trikotBrush}" Grid.Column="1" VerticalAlignment="Center" Padding="5"/>
-                        <TextBlock Text="{Binding Player.Position}" Background="{Binding positionBrush}" Grid.Column="2" VerticalAlignment="Center" Padding="5"/>
-                        <TextBlock Text="{Binding Player.Team}" Background="{Binding teamBrush}" Grid.Column="3" VerticalAlignment="Center" Padding="5"/>
-                        <TextBlock Text="{Binding Player.Conference}" Background="{Binding conferenceBrush}" Grid.Column="4" VerticalAlignment="Center" Padding="5"/>
-                        <TextBlock Text="{Binding Player.Division}" Background="{Binding divisionBrush}" Grid.Column="5" VerticalAlignment="Center" Padding="5"/>
+                        <TextBlock Text="{Binding Player.Name}" Background="{Binding nameBrush}" Grid.Column="0" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
+                        <TextBlock Text="{Binding trikotDisplay}" Background="{Binding trikotBrush}" Grid.Column="1" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
+                        <TextBlock Text="{Binding Player.Position}" Background="{Binding positionBrush}" Grid.Column="2" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
+                        <TextBlock Text="{Binding Player.Team}" Background="{Binding teamBrush}" Grid.Column="3" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
+                        <TextBlock Text="{Binding Player.Conference}" Background="{Binding conferenceBrush}" Grid.Column="4" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
+                        <TextBlock Text="{Binding Player.Division}" Background="{Binding divisionBrush}" Grid.Column="5" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2,2,15,2"/>
                     </Grid>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>

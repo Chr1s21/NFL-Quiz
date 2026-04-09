@@ -29,8 +29,6 @@ namespace NFL_Quiz
         public MainWindow()
         {
             InitializeComponent();
-            MainWindowViewModel vm = new MainWindowViewModel();
-            DataContext = vm;
         }
     }
 }

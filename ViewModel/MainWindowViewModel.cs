@@ -5,14 +5,13 @@ namespace NFL_Quiz.ViewModel
 {
     internal class MainWindowViewModel : ViewModelBase
     {
-        private ViewModelBase _currentViewModel;
-
-        public ViewModelBase CurrentViewModel
+        private object _currentView;
+        private object CurrentView
         {
-            get => _currentViewModel;
+            get => _currentView;
             set
             {
-                _currentViewModel = value;
+                _currentView = value;
                 OnPropertyChanged();
             }
         }
@@ -22,10 +21,10 @@ namespace NFL_Quiz.ViewModel
 
         public MainWindowViewModel()
         {
-            CurrentViewModel = new GamePageViewModel();
+            CurrentView = new GamePage();
 
-            ShowGameCommand = new RelayCommand(o => CurrentViewModel = new GamePageViewModel());
-            ShowSettingsCommand = new RelayCommand(o => CurrentViewModel = new SettingsPageViewModel());
+            ShowGameCommand = new RelayCommand(o => CurrentView = new GamePage());
+            ShowSettingsCommand = new RelayCommand(o => CurrentView = new SettingsPage());
         }
     }
 }

@@ -47,6 +47,6 @@
         <ContentControl Grid.Row="0" 
                         Grid.Column="1" 
                         Grid.RowSpan="3" 
-                        Content="{Binding CurrentViewModel}" />
+                        Content="{Binding CurrentView}" />
     </Grid>
 </Window>

@@ -58,6 +58,8 @@
                          SelectedItem="{Binding SelectedSuggestion, Mode=TwoWay}"
                          Width="{Binding ActualWidth, ElementName=SearchBox}"
                          MaxHeight="70"
+                         IsTabStop="True"
+                         KeyboardNavigation.TabNavigation="Cycle"
                          Margin="0,2,0,0"
                          Visibility="{Binding HasItems, RelativeSource={RelativeSource Self}, Converter={StaticResource BoolToVis}}"/>
             </Grid>
@@ -66,22 +68,57 @@
         <ItemsControl ItemsSource="{Binding Guesses}" Grid.Row="2">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="{Binding Player.Name}" Background="{Binding nameBrush}" Grid.Column="0" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
-                        <TextBlock Text="{Binding trikotDisplay}" Background="{Binding trikotBrush}" Grid.Column="1" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
-                        <TextBlock Text="{Binding Player.Position}" Background="{Binding positionBrush}" Grid.Column="2" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
-                        <TextBlock Text="{Binding Player.Team}" Background="{Binding teamBrush}" Grid.Column="3" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
-                        <TextBlock Text="{Binding Player.Conference}" Background="{Binding conferenceBrush}" Grid.Column="4" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2"/>
-                        <TextBlock Text="{Binding Player.Division}" Background="{Binding divisionBrush}" Grid.Column="5" TextWrapping="Wrap" MinHeight="36" FontSize="16" VerticalAlignment="Center" Padding="5" Margin="2,2,15,2"/>
-                    </Grid>
+                    <Border Margin="4" Padding="2" Background="Transparent">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.Resources>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="FontWeight" Value="SemiBold"/>
+                                    <Setter Property="FontSize" Value="14"/>
+                                    <Setter Property="TextAlignment" Value="Center"/>
+                                    <Setter Property="Padding" Value="8"/>
+                                    <Setter Property="VerticalAlignment" Value="Center"/>
+                                </Style>
+                                <Style x:Key="FieldBorder" TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="4"/>
+                                    <Setter Property="Margin" Value="2"/>
+                                    <Setter Property="Effect">
+                                        <Setter.Value>
+                                            <DropShadowEffect BlurRadius="4" ShadowDepth="1" Opacity="0.2"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Grid.Resources>
+
+                            <Border Style="{StaticResource FieldBorder}" Background="{Binding nameBrush}" Grid.Column="0">
+                                <TextBlock Text="{Binding Player.Name}" TextWrapping="Wrap"/>
+                            </Border>
+                            <Border Style="{StaticResource FieldBorder}" Background="{Binding trikotBrush}" Grid.Column="1">
+                                <TextBlock Text="{Binding trikotDisplay}"/>
+                            </Border>
+                            <Border Style="{StaticResource FieldBorder}" Background="{Binding positionBrush}" Grid.Column="2">
+                                <TextBlock Text="{Binding Player.Position}"/>
+                            </Border>
+                            <Border Style="{StaticResource FieldBorder}" Background="{Binding teamBrush}" Grid.Column="3">
+                                <TextBlock Text="{Binding Player.Team}" TextWrapping="Wrap"/>
+                            </Border>
+                            <Border Style="{StaticResource FieldBorder}" Background="{Binding conferenceBrush}" Grid.Column="4">
+                                <TextBlock Text="{Binding Player.Conference}"/>
+                            </Border>
+                            <Border Style="{StaticResource FieldBorder}" Background="{Binding divisionBrush}" Grid.Column="5">
+                                <TextBlock Text="{Binding Player.Division}"/>
+                            </Border>
+                        </Grid>
+                    </Border>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>

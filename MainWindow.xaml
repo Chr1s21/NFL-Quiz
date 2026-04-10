@@ -1,14 +1,15 @@
-﻿<Window x:Class="NFL_Quiz.MainWindow"
+﻿<mah:MetroWindow x:Class="NFL_Quiz.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"     
         xmlns:local="clr-namespace:NFL_Quiz"
         xmlns:vm="clr-namespace:NFL_Quiz.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="1000">
 
-    <Window.Resources>
+    <mah:MetroWindow.Resources>
         <DataTemplate DataType="{x:Type vm:GamePageViewModel}">
             <local:GamePage />
         </DataTemplate>
@@ -16,7 +17,7 @@
         <DataTemplate DataType="{x:Type vm:SettingsPageViewModel}">
             <local:SettingsPage />
         </DataTemplate>
-    </Window.Resources>
+    </mah:MetroWindow.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -30,23 +31,43 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" 
-                Grid.Column="0" 
-                Content="Game" 
-                Command="{Binding ShowGameCommand}"  
-                Style="{StaticResource StandardButton}"
-                Margin="10"/>
+        <StackPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Background="#F0F0F0">
 
-        <Button Grid.Row="1" 
-                Grid.Column="0" 
-                Content="Settings" 
-                Command="{Binding ShowSettingsCommand}" 
-                Style="{StaticResource StandardButton}"
-                Margin="10"/>
+            <Button Command="{Binding ShowGameCommand}"  
+            Style="{StaticResource StandardButton}"
+            Margin="10,10,10,5">
+                <StackPanel Orientation="Horizontal">
+                    <mah:FontIcon Glyph="&#xE7FC;" FontSize="18" Margin="0,0,5,0"/>
+                    <TextBlock Text="Game" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <Button Command="{Binding ShowSettingsCommand}" 
+            Style="{StaticResource StandardButton}"
+            Margin="10,5,10,20">
+                <StackPanel Orientation="Horizontal">
+                    <mah:FontIcon Glyph="&#xE713;" FontSize="16" Margin="0,0,5,0"/>
+                    <TextBlock Text="Settings" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <StackPanel Margin="10,0">
+                <TextBlock Text="Dark Mode" 
+                   HorizontalAlignment="Center" 
+                   FontSize="12" 
+                   Foreground="Black"/>
+                <mah:ToggleSwitch IsOn="{Binding IsDarkMode, Mode=TwoWay}" 
+                          OnContent="On" 
+                          OffContent="Off" 
+                          FontSize="12"/>
+            </StackPanel>
+        </StackPanel>
+
+
 
         <ContentControl Grid.Row="0" 
                         Grid.Column="1" 
                         Grid.RowSpan="3" 
                         Content="{Binding CurrentView}" />
     </Grid>
-</Window>
+</mah:MetroWindow>

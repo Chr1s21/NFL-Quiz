@@ -2,7 +2,8 @@
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"             
       xmlns:vm="clr-namespace:NFL_Quiz.ViewModel"
       xmlns:local="clr-namespace:NFL_Quiz"
       mc:Ignorable="d" 
@@ -18,9 +19,24 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.Row="0">
-            <Button Content="Add Player" Command="{Binding AddPlayerCommand}" Style="{StaticResource StandardButton}" HorizontalAlignment="Left" Margin="10" Width="100"/>
-            <Button Content="Delete Player" Command="{Binding DeletePlayerCommand}" Style="{StaticResource StandardButton}" CommandParameter="{Binding SelectedItem, ElementName=PlayerGrid}" HorizontalAlignment="Left" Margin="10" Width="100"/>
-            <Button Content="Save List" Command="{Binding SaveCommand}" Style="{StaticResource StandardButton}" HorizontalAlignment="Left" Margin="10" Width="100"/>
+            <Button Command="{Binding AddPlayerCommand}" Style="{StaticResource StandardButton}" HorizontalAlignment="Left" Margin="10" Width="100">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <mah:FontIcon Glyph="&#xE8FA;" FontSize="16" Margin="0,0,5,0"/>
+                    <TextBlock Text="Add Player" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding DeletePlayerCommand}" Style="{StaticResource StandardButton}" CommandParameter="{Binding SelectedItem, ElementName=PlayerGrid}" HorizontalAlignment="Left" Margin="10" Width="100">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <mah:FontIcon Glyph="&#xE74D;" FontSize="16" Margin="0,0,5,0"/>
+                    <TextBlock Text="Delete Player" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            <Button Command="{Binding SaveCommand}" Style="{StaticResource StandardButton}" HorizontalAlignment="Left" Margin="10" Width="100">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <mah:FontIcon Glyph="&#xE74E;" FontSize="16" Margin="0,0,5,0"/>
+                    <TextBlock Text="Save List" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
         </StackPanel>
 
         <DataGrid Grid.Row="1" x:Name="PlayerGrid" 

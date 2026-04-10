@@ -3,10 +3,31 @@
 
     <Color x:Key="SuccessGreenColor">#2ECC71</Color>
     <Color x:Key="ErrorRedColor">#E74C3C</Color>
-	<Color x:Key="Background">Black</Color>
+    <Color x:Key="Background">#282828</Color>
+    <Color x:Key="Background2">Black</Color>
+    <Color x:Key="DesignedButtonBackground">#86ac84</Color>
+    <Color x:Key="DesignedButtonBorder">#6e9c6d</Color>
+    <Color x:Key="StandardButtonBackground">#6e9c6d</Color>
+    <Color x:Key="StandardButtonBorder">#578c57</Color>
+    <Color x:Key="SidebarColor">#575757</Color> 
+    <Color x:Key="List">#717171</Color>
+    <Color x:Key="TextBlock">#717171</Color>
+    <Color x:Key="FontColor">white</Color>
+
+
 
     <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessGreenColor}"/>
     <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorRedColor}"/>
-	<SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource Background}"/>
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{DynamicResource Background}"/>
+    <SolidColorBrush x:Key="Background2Brush" Color="{DynamicResource Background2}"/>
+    <SolidColorBrush x:Key="DesignedButtonBackgroundBrush" Color="{DynamicResource DesignedButtonBackground}"/>
+    <SolidColorBrush x:Key="DesignedButtonBorderBrush" Color="{DynamicResource DesignedButtonBorder}"/>
+    <SolidColorBrush x:Key="StandardButtonBackgroundBrush" Color="{DynamicResource StandardButtonBackground}"/>
+    <SolidColorBrush x:Key="StandardButtonBorderBrush" Color="{DynamicResource StandardButtonBorder}"/>
+    <SolidColorBrush x:Key="SidebarBrush" Color="{DynamicResource SidebarColor}"/>
+    <SolidColorBrush x:Key="ListBrush" Color="{DynamicResource List}"/>
+    <SolidColorBrush x:Key="TextBlockBrush" Color="{DynamicResource TextBlock}"/>
+    <SolidColorBrush x:Key="FontBrush" Color="{DynamicResource FontColor}"/>
+
 
 </ResourceDictionary>

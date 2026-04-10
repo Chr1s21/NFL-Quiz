@@ -12,7 +12,6 @@
                 <!-- Theme setting -->
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
                 <ResourceDictionary Source="/Ressources/LightMode.xaml"/>
-                <ResourceDictionary Source="/Ressources/DarkMode.xaml"/>
                 <ResourceDictionary Source="/Ressources/ButtonTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 

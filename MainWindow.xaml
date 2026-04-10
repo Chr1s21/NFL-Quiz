@@ -31,7 +31,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Background="#F0F0F0">
+        <StackPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Background="{DynamicResource SidebarBrush}">
 
             <Button Command="{Binding ShowGameCommand}"  
             Style="{StaticResource StandardButton}"
@@ -55,7 +55,7 @@
                 <TextBlock Text="Dark Mode" 
                    HorizontalAlignment="Center" 
                    FontSize="12" 
-                   Foreground="Black"/>
+                   Foreground="{DynamicResource FontBrush}"/>
                 <mah:ToggleSwitch IsOn="{Binding IsDarkMode, Mode=TwoWay}" 
                           OnContent="On" 
                           OffContent="Off" 

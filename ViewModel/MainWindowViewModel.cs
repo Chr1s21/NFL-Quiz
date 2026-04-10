@@ -1,5 +1,6 @@
 ﻿using NFL_Quiz.MVVM;
 using System.Printing;
+using System.Windows;
 using System.Windows.Input;
 
 namespace NFL_Quiz.ViewModel
@@ -38,20 +39,35 @@ namespace NFL_Quiz.ViewModel
 
             ShowGameCommand = new RelayCommand(o => CurrentView = new GamePage());
             ShowSettingsCommand = new RelayCommand(o => CurrentView = new SettingsPage());
+            IsDarkMode = false;
         }
 
         private void UpdateTheme(bool isDarkMode)
         {
-            var app = System.Windows.Application.Current;
-            if (isDarkMode)
+            // 1. Den richtigen Pfad festlegen (basierend auf deiner Projektstruktur)
+            // Laut deinen Dateien liegen sie im Ordner "Ressources" (mit Doppel-s)
+            string themeName = isDarkMode ? "DarkMode.xaml" : "LightMode.xaml";
+            string uriPath = $"pack://application:,,,/Ressources/{themeName}";
+
+            var newDict = new ResourceDictionary { Source = new Uri(uriPath) };
+
+            // 2. Das bestehende Dictionary in der App finden und ersetzen
+            var dictionaries = Application.Current.Resources.MergedDictionaries;
+
+            // Wir suchen nach einem Dictionary, das entweder LightMode oder DarkMode im Namen hat
+            var oldDict = dictionaries.FirstOrDefault(d =>
+                d.Source != null &&
+                (d.Source.OriginalString.Contains("LightMode.xaml") ||
+                 d.Source.OriginalString.Contains("DarkMode.xaml")));
+
+            if (oldDict != null)
             {
-                app.Resources.MergedDictionaries.Clear();
-                app.Resources.MergedDictionaries.Add(new System.Windows.ResourceDictionary { Source = new Uri("pack://application:,,,/Themes/DarkMode.xaml") });
+                int index = dictionaries.IndexOf(oldDict);
+                dictionaries[index] = newDict; // An der gleichen Stelle austauschen
             }
             else
             {
-                app.Resources.MergedDictionaries.Clear();
-                app.Resources.MergedDictionaries.Add(new System.Windows.ResourceDictionary { Source = new Uri("pack://application:,,,/Themes/LightMode.xaml") });
+                dictionaries.Add(newDict); // Falls keins gefunden wurde, neu hinzufügen
             }
         }
 

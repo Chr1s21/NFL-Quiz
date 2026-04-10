@@ -14,14 +14,14 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </UserControl.Resources>
 
-    <Grid x:Name="MainGrid">
+    <Grid x:Name="MainGrid" Background="{DynamicResource BackgroundBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="100" />
             <RowDefinition Height="150" />
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Text="NFL Quiz" FontSize="56" HorizontalAlignment="Center" />
+        <TextBlock Foreground="{DynamicResource FontBrush}" Grid.Row="0" Text="NFL Quiz" FontSize="56" HorizontalAlignment="Center" />
 
         <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Top">
             <Grid HorizontalAlignment="Center">
@@ -39,6 +39,7 @@
                          Grid.Row="0"
                          Grid.Column="0"
                          Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                         Background="{DynamicResource TextBlockBrush}"
                          MinWidth="200"
                          Padding="15"/>
 
@@ -54,12 +55,13 @@
 
                 <ListBox Grid.Row="1"
                          Grid.Column="0"
-                         ItemsSource="{Binding Suggestions}" 
+                         ItemsSource="{Binding Suggestions }" 
                          SelectedItem="{Binding SelectedSuggestion, Mode=TwoWay}"
                          Width="{Binding ActualWidth, ElementName=SearchBox}"
                          MaxHeight="70"
                          IsTabStop="True"
                          KeyboardNavigation.TabNavigation="Cycle"
+                         Background="{DynamicResource ListBrush}"                       
                          Margin="0,2,0,0"
                          Visibility="{Binding HasItems, RelativeSource={RelativeSource Self}, Converter={StaticResource BoolToVis}}"/>
             </Grid>

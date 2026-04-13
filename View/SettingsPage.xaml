@@ -43,12 +43,13 @@
                   ItemsSource="{Binding Players}"
                   AutoGenerateColumns="True" 
                   Margin="10" 
-                  AlternatingRowBackground="{DynamicResource BackgroundBrush}"
+                  AlternatingRowBackground="{DynamicResource RowBackgroundBrush }"
                   RowBackground="{DynamicResource Background2Brush}"
                   Background="{DynamicResource StandardButtonBackgroundBrush}"
                   Foreground="{DynamicResource FontBrush}"
                   CanUserAddRows="False"
                   ColumnWidth="*">
         </DataGrid>
+        
     </Grid>
 </UserControl>

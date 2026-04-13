@@ -61,8 +61,7 @@ namespace NFL_Quiz.ViewModel
             guesses = new ObservableCollection<GuessResult>();
             suggestions = new ObservableCollection<string>();
 
-            string path = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "NflPlayer.json");
-            allPlayers = PlayerLoad.LoadPlayers(path).ToList();
+            allPlayers = PlayerLoad.LoadPlayers().ToList();
 
             StartNewGame();
             SubmitCommand = new RelayCommand(o => ExecuteSubmit());

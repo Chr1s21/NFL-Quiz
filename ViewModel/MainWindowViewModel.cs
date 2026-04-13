@@ -35,7 +35,9 @@ namespace NFL_Quiz.ViewModel
 
         public MainWindowViewModel()
         {
+
             CurrentView = new GamePage();
+
 
             ShowGameCommand = new RelayCommand(o => CurrentView = new GamePage());
             ShowSettingsCommand = new RelayCommand(o => CurrentView = new SettingsPage());

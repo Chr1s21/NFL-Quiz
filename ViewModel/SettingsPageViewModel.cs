@@ -9,7 +9,6 @@ namespace NFL_Quiz.ViewModel
 {
     internal class SettingsPageViewModel : ViewModelBase
     {
-        private string filePath = "Data/NflPlayer.json";
         public ObservableCollection<Player> Players { get; set; }
 
         public ICommand AddPlayerCommand { get; }
@@ -17,7 +16,7 @@ namespace NFL_Quiz.ViewModel
         public ICommand SaveCommand { get; }
         public SettingsPageViewModel()
         {
-            Players = PlayerLoad.LoadPlayers(filePath);
+            Players = PlayerLoad.LoadPlayers();
             AddPlayerCommand = new RelayCommand(o => ExecuteAddPlayer());
             DeletePlayerCommand = new RelayCommand(p => ExecuteDeletePlayer(p));
             SaveCommand = new RelayCommand(o => ExecuteSave());
@@ -39,7 +38,7 @@ namespace NFL_Quiz.ViewModel
 
         private void ExecuteSave()
         {
-            PlayerLoad.SavePlayers(filePath, Players);
+            PlayerLoad.SavePlayers(Players);
             MessageBox.Show("Daten erfolgreich gespeichert!");
         }
     }

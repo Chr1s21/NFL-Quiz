@@ -16,5 +16,10 @@ namespace NFL_Quiz
             InitializeComponent();
             this.DataContext = new MainWindowViewModel();
         }
+
+        private void ComboBox_Initialized(object sender, EventArgs e)
+        {
+
+        }
     }
 }

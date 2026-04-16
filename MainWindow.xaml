@@ -61,6 +61,16 @@
                           OffContent="Off" 
                           FontSize="12"/>
             </StackPanel>
+
+            <ComboBox Margin="10,20,10,0" 
+                
+                Style="{DynamicResource ComboBox}">
+                <ComboBoxItem Content="Light" />
+                <ComboBoxItem Content="Dark" />
+                <ComboBoxItem Content="Lamar Jackson" />
+
+            </ComboBox>
+
         </StackPanel>
 
 

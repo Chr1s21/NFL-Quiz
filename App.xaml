@@ -13,6 +13,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
                 <ResourceDictionary Source="/Ressources/LightMode.xaml"/>
                 <ResourceDictionary Source="/Ressources/ButtonTemplate.xaml"/>
+                <ResourceDictionary Source="/Ressources/ComboBoxTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
         </ResourceDictionary>
